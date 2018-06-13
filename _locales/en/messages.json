@@ -1,0 +1,7 @@
+{
+  "browser_action": {"message": "Pause history" },
+  "browser_action_off": {"message": "Stop pausing history" },
+  "ext_desc": {"message": "Pause your history recording in one click" },
+  "ext_name": {"message": "1click Pause History" }
+}
+

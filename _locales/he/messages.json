@@ -1,0 +1,7 @@
+{
+  "browser_action": {"message": "עצור היסטוריה" },
+  "browser_action_off": {"message": "הפעל מחדש היבטוריה" },
+  "ext_desc": {"message": "עצור את רישום ההיסטוריה שלך בלחיצה אחת" },
+  "ext_name": {"message": "עצור היסטוריה בלחיצה אחת" }
+}
+
