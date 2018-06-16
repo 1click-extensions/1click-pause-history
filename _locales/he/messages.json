@@ -2,6 +2,7 @@
   "browser_action": {"message": "עצור היסטוריה" },
   "browser_action_off": {"message": "הפעל מחדש היבטוריה" },
   "ext_desc": {"message": "עצור את רישום ההיסטוריה שלך בלחיצה אחת" },
+  "your_history_is_now_paused": {"message": "ההיסטוריה שלך לא תרשם עד שתלחץ שוב על האייקון" },
   "ext_name": {"message": "עצור היסטוריה בלחיצה אחת" }
 }
 

@@ -14,6 +14,16 @@ function toggle(){
   if(getStat()){
     chrome.browserAction.setIcon({path:  chrome.runtime.getURL('images/browseraction_off.png')});
     chrome.browserAction.setTitle({title:chrome.i18n.getMessage("browser_action_off")});
+    if(!localStorage.getItem('firstTime')){
+      chrome.tabs.query( { active: true, currentWindow: true }, function(tabs){
+        //console.log(tabs[0]);
+        if(tabs &&tabs[0]){
+          chrome.tabs.executeScript(tabs[0].id,{file :'js/alert.js'})
+          localStorage.setItem('firstTime',1);
+        }
+      });
+    }
+    setTimeout(injectJsCurrentTab, 3000);
   }
   else{
  chrome.browserAction.setIcon({path:  chrome.runtime.getURL('images/browseraction.png')});

@@ -1,0 +1,1 @@
+alert( chrome.i18n.getMessage("your_history_is_now_paused"));

@@ -1,6 +1,7 @@
 {
   "browser_action": {"message": "Pause history" },
-  "browser_action_off": {"message": "Stop pausing history" },
+  "browser_action_off": {"message": "start again to record history" },
+  "your_history_is_now_paused": {"message": "Your history now would not be recorded until you'll click this icon again" },
   "ext_desc": {"message": "Pause your history recording in one click" },
   "ext_name": {"message": "1click Pause History" }
 }

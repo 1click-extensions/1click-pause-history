@@ -4,10 +4,11 @@
     "version": "0.1",
     "description": "__MSG_ext_desc__",
     "permissions": [
-          "history"
+          "history",
+          "activeTab"
         ],
     "background": {
-      "scripts": ["background.js"],
+      "scripts": ["background.js","js/rank-listener.js"],
       "persistent": false
     },
     "browser_action":{
